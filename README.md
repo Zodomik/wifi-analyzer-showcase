@@ -39,23 +39,19 @@ Built and published by **[Oğuz Tonyalı](https://github.com/Zodomik)**. This re
 | Local history | Codable, UserDefaults | Persisted scan records and saved devices. |
 | Access and sensors | StoreKit, RevenueCat, Core Motion | Premium access and magnetic-field readings. |
 
-## Engineering highlights
+## Implementation notes
 
-### Progressive discovery
+SwiftUI client; on-device Network/Bonjour discovery; Codable/UserDefaults scan history; public lookup services for selected diagnostics.
 
-An asynchronous scan stream can surface results as hosts are examined. This supports a visible scanning state instead of making the interface wait for one final response.
+- Batched host/port task groups and progressive AsyncStream events.
+- A one-shot completion guard resolves connection/timeout races.
+- Bitwise subnet calculations and adaptive magnetic-field baselines.
 
-### Multiple signals for device context
-
-Bonjour services, resolved names and reachable ports contribute to the discovered-device model. Labels inferred from those signals are useful context rather than guaranteed hardware identity.
-
-### Services behind the interface
-
-Scanning, diagnostic probes and history storage are separate components. The view model can coordinate work and publish progress without embedding network operations in individual SwiftUI views.
-
-Device visibility depends on local-network permissions, network isolation and whether devices respond to discovery or probes.
-
-→ **[Explore the architecture and design decisions](docs/ENGINEERING.md)**
+| Read more | What is covered |
+| --- | --- |
+| [Architecture and frameworks](docs/ENGINEERING.md) | Runtime components, backend structure and framework responsibilities |
+| [Database and local data](docs/DATA_MODEL.md) | Entities, relationships, constraints and persistence choices |
+| [Algorithms and implementation choices](docs/ALGORITHMS.md) | Calculations, example flows and the limits of each approach |
 
 ## Try the product
 
