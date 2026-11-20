@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="480" viewBox="0 0 1600 480" role="img" aria-label="Wifi Analyzer — Make your network visible.">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#111725"/><stop offset="1" stop-color="#1c2334"/></linearGradient><radialGradient id="glow"><stop stop-color="#67c6ff" stop-opacity=".15"/><stop offset="1" stop-color="#67c6ff" stop-opacity="0"/></radialGradient></defs>
+<rect width="1600" height="480" rx="30" fill="url(#bg)"/>
+<circle cx="1350" cy="235" r="410" fill="url(#glow)"/>
+<g fill="none" stroke="#67c6ff"><circle cx="1360" cy="240" r="170" opacity=".19"/><circle cx="1360" cy="240" r="125" opacity=".3"/><circle cx="1360" cy="240" r="80" opacity=".45"/><path d="M1120 240h480M1360 0v480" opacity=".12"/></g>
+<circle cx="1360" cy="115" r="12" fill="#67c6ff"/><circle cx="1238" cy="357" r="7" fill="#67c6ff" opacity=".6"/>
+<rect x="72" y="64" width="40" height="4" rx="2" fill="#67c6ff"/>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif"><text x="130" y="75" font-size="21" letter-spacing="4" fill="#67c6ff">NETWORK DISCOVERY &amp; DIAGNOSTICS</text>
+<text x="70" y="215" font-size="104" font-weight="750" letter-spacing="-4" fill="#f5f5f2">Wifi Analyzer</text>
+<text x="75" y="289" font-size="34" fill="#c4cbd8">Make your network visible.</text>
+<path d="M75 351h990" stroke="#333b4e"/>
+<text x="75" y="410" font-size="21" letter-spacing="2" fill="#9da8bb">AVAILABLE ON THE APP STORE   /   iOS 17+</text>
+<rect x="1224" y="385" width="284" height="46" rx="23" fill="#67c6ff" fill-opacity=".12"/>
+<text x="1366" y="415" text-anchor="middle" font-size="18" letter-spacing="2" fill="#67c6ff">BY OGUZ TONYALI</text></g></svg>
